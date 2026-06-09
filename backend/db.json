@@ -5,63 +5,63 @@
     "name": "Rahul Sharma",
     "email": "rahul@gmail.com",
     "password": "123456",
-    "role": "customer"
+    "role": "student"
   },
   {
     "id": 2,
     "name": "Priya Patel",
     "email": "priya@gmail.com",
     "password": "123456",
-    "role": "customer"
+    "role": "student"
   },
   {
     "id": 3,
     "name": "Arjun Mehta",
     "email": "arjun@gmail.com",
     "password": "123456",
-    "role": "customer"
+    "role": "student"
   },
   {
     "id": 4,
     "name": "Neha Singh",
     "email": "neha@gmail.com",
     "password": "123456",
-    "role": "customer"
+    "role": "student"
   },
   {
     "id": 5,
     "name": "Aman Verma",
     "email": "aman@gmail.com",
     "password": "123456",
-    "role": "customer"
+    "role": "student"
   },
   {
     "id": 6,
     "name": "Sneha Gupta",
     "email": "sneha@gmail.com",
     "password": "123456",
-    "role": "customer"
+    "role": "student"
   },
   {
     "id": 7,
     "name": "Karan Shah",
     "email": "karan@gmail.com",
     "password": "123456",
-    "role": "customer"
+    "role": "student"
   },
   {
     "id": 8,
     "name": "Anjali Rao",
     "email": "anjali@gmail.com",
     "password": "123456",
-    "role": "customer"
+    "role": "student"
   },
   {
     "id": 9,
     "name": "Vikram Joshi",
     "email": "vikram@gmail.com",
     "password": "123456",
-    "role": "customer"
+    "role": "student"
   },
   {
     "id": 10,
@@ -132,7 +132,6 @@
     "rating": 4.8
   }
 ],
-  "courses": [],
   "courses": [
   {
     "id": 101,
