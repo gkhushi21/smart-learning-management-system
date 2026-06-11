@@ -76,7 +76,7 @@ export class RegisterComponent {
               this.router.navigate(['/login']);
             },
 
-            error: (err) => {
+            error: (err: any) => {
               console.error(err);
 
               alert('Profile Creation Failed');
@@ -84,7 +84,7 @@ export class RegisterComponent {
           });
         },
 
-        error: (error) => {
+        error: (error:any) => {
           console.error(error);
 
           alert('Registration Failed');
