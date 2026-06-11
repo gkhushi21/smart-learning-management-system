@@ -1,188 +1,212 @@
 {
   "users": [
-  {
-    "id": 1,
-    "name": "Rahul Sharma",
-    "email": "rahul@gmail.com",
-    "password": "123456",
-    "role": "student"
-  },
-  {
-    "id": 2,
-    "name": "Priya Patel",
-    "email": "priya@gmail.com",
-    "password": "123456",
-    "role": "student"
-  },
-  {
-    "id": 3,
-    "name": "Arjun Mehta",
-    "email": "arjun@gmail.com",
-    "password": "123456",
-    "role": "student"
-  },
-  {
-    "id": 4,
-    "name": "Neha Singh",
-    "email": "neha@gmail.com",
-    "password": "123456",
-    "role": "student"
-  },
-  {
-    "id": 5,
-    "name": "Aman Verma",
-    "email": "aman@gmail.com",
-    "password": "123456",
-    "role": "student"
-  },
-  {
-    "id": 6,
-    "name": "Sneha Gupta",
-    "email": "sneha@gmail.com",
-    "password": "123456",
-    "role": "student"
-  },
-  {
-    "id": 7,
-    "name": "Karan Shah",
-    "email": "karan@gmail.com",
-    "password": "123456",
-    "role": "student"
-  },
-  {
-    "id": 8,
-    "name": "Anjali Rao",
-    "email": "anjali@gmail.com",
-    "password": "123456",
-    "role": "student"
-  },
-  {
-    "id": 9,
-    "name": "Vikram Joshi",
-    "email": "vikram@gmail.com",
-    "password": "123456",
-    "role": "student"
-  },
-  {
-    "id": 10,
-    "name": "Admin User",
-    "email": "admin@gmail.com",
-    "password": "admin123",
-    "role": "admin"
-  }
-],
+    {
+      "id": "1",
+      "name": "Rahul Sharma",
+      "email": "rahul@gmail.com",
+      "password": "123456",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "2",
+      "name": "Priya Patel",
+      "email": "priya@gmail.com",
+      "password": "123456",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "3",
+      "name": "Arjun Mehta",
+      "email": "arjun@gmail.com",
+      "password": "123456",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "4",
+      "name": "Neha Singh",
+      "email": "neha@gmail.com",
+      "password": "123456",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "5",
+      "name": "Aman Verma",
+      "email": "aman@gmail.com",
+      "password": "123456",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "6",
+      "name": "Sneha Gupta",
+      "email": "sneha@gmail.com",
+      "password": "123456",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "7",
+      "name": "Karan Shah",
+      "email": "karan@gmail.com",
+      "password": "123456",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "8",
+      "name": "Anjali Rao",
+      "email": "anjali@gmail.com",
+      "password": "123456",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "9",
+      "name": "Vikram Joshi",
+      "email": "vikram@gmail.com",
+      "password": "123456",
+      "role": "CUSTOMER"
+    },
+    {
+      "id": "10",
+      "name": "Admin User",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "ADMIN"
+    }
+  ],
   "profiles": [
-  {
-    "id": 1,
-    "userId": 1,
-    "phone": "9876543210",
-    "location": "Mumbai",
-    "experienceLevel": "Beginner",
-    "skills": ["HTML", "CSS"],
-    "learningPreferences": {
-      "emailNotifications": true,
-      "darkMode": true
+    {
+      "id": "1",
+      "userId": 1,
+      "phone": "9876543210",
+      "location": "Mumbai",
+      "experienceLevel": "Beginner",
+      "skills": [
+        "HTML",
+        "CSS"
+      ],
+      "learningPreferences": {
+        "emailNotifications": true,
+        "darkMode": true
+      }
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "phone": "9876543211",
+      "location": "Delhi",
+      "experienceLevel": "Intermediate",
+      "skills": [
+        "JavaScript",
+        "Angular"
+      ],
+      "learningPreferences": {
+        "emailNotifications": true,
+        "darkMode": false
+      }
     }
-  },
-  {
-    "id": 2,
-    "userId": 2,
-    "phone": "9876543211",
-    "location": "Delhi",
-    "experienceLevel": "Intermediate",
-    "skills": ["JavaScript", "Angular"],
-    "learningPreferences": {
-      "emailNotifications": true,
-      "darkMode": false
-    }
-  }
-],
+  ],
   "categories": [
-  { "id": 1, "name": "Frontend" },
-  { "id": 2, "name": "Backend" },
-  { "id": 3, "name": "Cloud" },
-  { "id": 4, "name": "DevOps" },
-  { "id": 5, "name": "Data Science" },
-  { "id": 6, "name": "AI & ML" }
-],
+    {
+      "id": "1",
+      "name": "Frontend"
+    },
+    {
+      "id": "2",
+      "name": "Backend"
+    },
+    {
+      "id": "3",
+      "name": "Cloud"
+    },
+    {
+      "id": "4",
+      "name": "DevOps"
+    },
+    {
+      "id": "5",
+      "name": "Data Science"
+    },
+    {
+      "id": "6",
+      "name": "AI & ML"
+    }
+  ],
   "instructors": [
-  {
-    "id": 1,
-    "name": "John Anderson",
-    "rating": 4.8
-  },
-  {
-    "id": 2,
-    "name": "Sarah Wilson",
-    "rating": 4.7
-  },
-  {
-    "id": 3,
-    "name": "David Lee",
-    "rating": 4.9
-  },
-  {
-    "id": 4,
-    "name": "Emily Clark",
-    "rating": 4.6
-  },
-  {
-    "id": 5,
-    "name": "Michael Scott",
-    "rating": 4.8
-  }
-],
+    {
+      "id": "1",
+      "name": "John Anderson",
+      "rating": 4.8
+    },
+    {
+      "id": "2",
+      "name": "Sarah Wilson",
+      "rating": 4.7
+    },
+    {
+      "id": "3",
+      "name": "David Lee",
+      "rating": 4.9
+    },
+    {
+      "id": "4",
+      "name": "Emily Clark",
+      "rating": 4.6
+    },
+    {
+      "id": "5",
+      "name": "Michael Scott",
+      "rating": 4.8
+    }
+  ],
   "courses": [
-  {
-    "id": 101,
-    "title": "Angular Fundamentals",
-    "categoryId": 1,
-    "instructorId": 1,
-    "duration": "30 Hours",
-    "level": "Beginner",
-    "rating": 4.8,
-    "status": "active",
-    "thumbnail": "assets/angular.jpg"
-  },
-  {
-    "id": 102,
-    "title": "Advanced Angular",
-    "categoryId": 1,
-    "instructorId": 1,
-    "duration": "40 Hours",
-    "level": "Advanced",
-    "rating": 4.9,
-    "status": "active",
-    "thumbnail": "assets/angular-advanced.jpg"
-  },
-  {
-    "id": 103,
-    "title": "NodeJS Bootcamp",
-    "categoryId": 2,
-    "instructorId": 2,
-    "duration": "35 Hours",
-    "level": "Intermediate",
-    "rating": 4.7,
-    "status": "active",
-    "thumbnail": "assets/node.jpg"
-  }
-],
+    {
+      "id": "101",
+      "title": "Angular Fundamentals",
+      "categoryId": 1,
+      "instructorId": 1,
+      "duration": "30 Hours",
+      "level": "Beginner",
+      "rating": 4.8,
+      "status": "active",
+      "thumbnail": "assets/angular.jpg"
+    },
+    {
+      "id": "102",
+      "title": "Advanced Angular",
+      "categoryId": 1,
+      "instructorId": 1,
+      "duration": "40 Hours",
+      "level": "Advanced",
+      "rating": 4.9,
+      "status": "active",
+      "thumbnail": "assets/angular-advanced.jpg"
+    },
+    {
+      "id": "103",
+      "title": "NodeJS Bootcamp",
+      "categoryId": 2,
+      "instructorId": 2,
+      "duration": "35 Hours",
+      "level": "Intermediate",
+      "rating": 4.7,
+      "status": "active",
+      "thumbnail": "assets/node.jpg"
+    }
+  ],
   "enrollments": [
-  {
-    "id": 1,
-    "userId": 1,
-    "courseId": 101,
-    "batchId": 1,
-    "status": "enrolled"
-  },
-  {
-    "id": 2,
-    "userId": 2,
-    "courseId": 102,
-    "batchId": 2,
-    "status": "enrolled"
-  }
-],
+    {
+      "id": "1",
+      "userId": 1,
+      "courseId": 101,
+      "batchId": 1,
+      "status": "enrolled"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "courseId": 102,
+      "batchId": 2,
+      "status": "enrolled"
+    }
+  ],
   "courseModules": [],
   "progress": [],
   "assessments": [],
@@ -190,5 +214,6 @@
   "assessmentAttempts": [],
   "certificates": [],
   "notifications": [],
-  "reports": []
+  "reports": [],
+  "$schema": "./node_modules/json-server/schema.json"
 }
